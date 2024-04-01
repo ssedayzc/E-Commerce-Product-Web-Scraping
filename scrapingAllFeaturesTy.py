@@ -58,7 +58,7 @@ for link in df['Links']:
     else:
         favorite_count = "Favori Sayısı Bulunamadı"
     
-    # Ürün kategorileri
+    # Ürün kategorilerii
     categories = []
     category_tags = soup.select(".product-detail-breadcrumb-item")
     for category_tag in category_tags:
